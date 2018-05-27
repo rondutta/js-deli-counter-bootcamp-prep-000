@@ -7,7 +7,7 @@ let takeANumber = function(array,name){
 let nowServing = function(array){
   var name = array.shift();
   if(array.length===0)
-   return "There is nobody waiting to be served";
+   return "There is nobody waiting to be served!";
   else
-   return `Currently serving ${name}`
+   return `Currently serving ${name}.`
 }
