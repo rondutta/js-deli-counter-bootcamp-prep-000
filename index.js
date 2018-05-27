@@ -1,7 +1,7 @@
 let takeANumber = function(array,name){
   array.push(name);
   var l=array.length;
-  return `Welcome ${name}. You are number ${l} in line.`;
+  return `Welcome, ${name}. You are number ${l} in line.`;
 }
 
 let nowServing = function(array){
