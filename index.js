@@ -11,3 +11,7 @@ let nowServing = function(array){
   else
    return `Currently serving ${name}.`
 }
+
+let currentLine = function(array){
+  
+}
