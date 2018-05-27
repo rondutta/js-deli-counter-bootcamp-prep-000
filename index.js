@@ -19,7 +19,7 @@ let currentLine = function(array){
    }
    var customerAndNumber = [];
    for (var i=0; i<array.length; i++) {
-   customerAndNumber.push(i + 1 + ". " + katzDeliLine[i])
+   customerAndNumber.push(i + 1 + ". " + array[i])
    }
   return "The line is currently: " + customerAndNumber.join(", ");
 }
