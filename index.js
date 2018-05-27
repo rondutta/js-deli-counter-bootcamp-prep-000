@@ -13,9 +13,9 @@ let nowServing = function(array){
 }
 
 let currentLine = function(array){
-  if (array.length===0) {
+   if (array.length===0) {
    return "The line is currently empty.";
-}
+   }
    var customerAndNumber = [];
    for (var i=0; i<array.length; i++) {
    customerAndNumber.push(i + 1 + ". " + katzDeliLine[i])
