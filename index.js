@@ -13,5 +13,6 @@ let nowServing = function(array){
 }
 
 let currentLine = function(array){
-  
+  if(array.length>0)
+   
 }
