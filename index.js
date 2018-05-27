@@ -4,3 +4,7 @@ let takeANumber = function(array,name){
   return `Welcome ${name}. You are number ${l+1} in line.`;
 }
 
+let nowServing = function(array){
+  var name = array.shift();
+  
+}
